@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Ashok Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Ashok <span>Bhupathy K S</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#">Services</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Skills</a>
+                <a href="#">Service</a>
+                <a href="#">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="photo.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Ashok Bhupathy</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="10000" data-aos-delay="900">I'm a <span class="typewriter-text">FrontEnd Developer</span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">Hi, I'm Ashok Bhupathy K S, a passionate Front-End Developer with a Master's degree in Information Technology (M.Sc IT) from D.G. Vaishnav College. I specialize in creating engaging and user-friendly web interfaces that bring ideas to life. With a strong foundation in web technologies and a keen eye for design, I strive to craft responsive and dynamic websites that deliver exceptional user experiences.
+<br>
+                    Currently, I am actively seeking opportunities to contribute my skills and grow as a professional in the tech industry. Let's collaborate and build something amazing together!</p>
+                <div class="social-links ">
+                    <a href="https://github.com/AshokBhupathyweb/folder-port.git" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ashok-bhupathy-k-s-04179b339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://youtube.com/@vadakantalks?si=xhgNh2w4Av01ObTy" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-youtube" ></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+
+                   <button onclick="mail()" >Hire me</button>
+             
+                    <button onclick="mail1()">Let's Talk</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
